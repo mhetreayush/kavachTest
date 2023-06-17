@@ -1,8 +1,12 @@
+import PageWrapper from "@/components/Pagewrapper";
+
 const History = () => {
   return (
-    <div>
-      <div></div>
-    </div>
+    <PageWrapper heading={"History"}>
+      <div>
+        <div></div>
+      </div>
+    </PageWrapper>
   );
 };
 

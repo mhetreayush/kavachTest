@@ -1,8 +1,12 @@
+import PageWrapper from "@/components/Pagewrapper";
+
 const Notifications = () => {
   return (
-    <div>
-      <div></div>
-    </div>
+    <PageWrapper heading={"Notifications"}>
+      <div>
+        <div></div>
+      </div>
+    </PageWrapper>
   );
 };
 
