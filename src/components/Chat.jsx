@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { IoSendSharp } from "react-icons/io5";
 import { IoArrowBackSharp } from "react-icons/io5";
+
 const Chat = () => {
   const [isChatLoaded, setIsChatLoaded] = useState(true);
   const [newMsg, setNewMsg] = useState("");
