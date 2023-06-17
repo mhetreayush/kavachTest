@@ -36,7 +36,7 @@ const LoginWrapper = ({ children }) => {
   ];
   return (
     <>
-      <div className="min-h-screen flex w-full relative">
+      <div className="min-h-screen flex w-full relative ">
         {/*------------------------ Sidebar starts Here ---------------------------*/}
         <div className="bg-primaryBlue p-4 flex flex-col gap-y-4 sticky top-0 h-screen pt-8 z-50">
           <button
