@@ -1,12 +1,14 @@
 import PageWrapper from "@/components/Pagewrapper";
+import Step1 from "@/components/createEventSteps/Step1";
+import Step2 from "@/components/createEventSteps/Step2";
+import Step3 from "@/components/createEventSteps/Step3";
 
 const CreateEvent = () => {
   return (
     <PageWrapper heading={"Create Event"}>
-      <div className="grid grid-cols-10 gap-x-4">
-        <div className="col-span-8">asd</div>
-        <div className="col-span-2">as</div>
-      </div>
+      <Step1 />
+      <Step2 />
+      <Step3 />
     </PageWrapper>
   );
 };

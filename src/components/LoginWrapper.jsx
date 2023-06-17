@@ -51,7 +51,10 @@ const LoginWrapper = ({ children }) => {
           {pageMap.map((page, index) => {
             return (
               <Link
-                onClick={() => setCurrentPage(index)}
+                onClick={() => {
+                  setCurrentPage(index);
+                  if (page.path == "/createEvent") setIsExpanded(false);
+                }}
                 href={page.path}
                 key={index}
                 className="flex w-full"
